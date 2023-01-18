@@ -1,0 +1,193 @@
+{
+  "numFound": 14,
+  "start": 0,
+  "numFoundExact": true,
+  "docs": [
+    {
+      "key": "OL30053A",
+      "type": "author",
+      "name": "Attila Jozsef",
+      "alternate_names": [
+        "Attila József",
+        "Jozsef Attila",
+        "József, Attila",
+        "József, Attila"
+      ],
+      "birth_date": "1905",
+      "death_date": "1937",
+      "top_work": "Összes versei",
+      "work_count": 61,
+      "top_subjects": [
+        "Attila József (1905-1937)",
+        "Poetry (poetic works by one author)",
+        "Translations into English",
+        "20th century",
+        "Hungarian poetry",
+        "Correspondence",
+        "Protected DAISY",
+        "Hungarian Poets",
+        "Hungarian Authors",
+        "Criticism and interpretation"
+      ],
+      "_version_": 1753144701840523272
+    },
+    {
+      "key": "OL819228A",
+      "type": "author",
+      "name": "József Attila Tudományegyetem.",
+      "top_work": "A József Attila Tudományegyetem beszámolója, 1948-1967",
+      "work_count": 2,
+      "top_subjects": [
+        "József Attila Tudományegyetem"
+      ],
+      "_version_": 1735711425596227585
+    },
+    {
+      "key": "OL1543198A",
+      "type": "author",
+      "name": "Balázsi, József Attila",
+      "birth_date": "1954",
+      "top_work": "\"Virágnak mondod, pedig nem az--\"",
+      "work_count": 1,
+      "top_subjects": [
+        "Synonyms and antonyms",
+        "Metaphor",
+        "Hungarian language",
+        "Comparison (Grammar)",
+        "Comparison"
+      ],
+      "_version_": 1735685396458635270
+    },
+    {
+      "key": "OL6157743A",
+      "type": "author",
+      "name": "Jozsef Attila Tudomanyegyetem.",
+      "top_work": "Szegedi egyetemi almanach, 1921-1970",
+      "work_count": 1,
+      "_version_": 1735703651636215809
+    },
+    {
+      "key": "OL8930174A",
+      "type": "author",
+      "name": "József Attila Tudományegyetem",
+      "top_work": "Szegedi egyetemi almanach, 1921-1995",
+      "work_count": 1,
+      "top_subjects": [
+        "József Attila Tudományegyetem",
+        "Faculty",
+        "Directories"
+      ],
+      "_version_": 1735713937251368964
+    },
+    {
+      "key": "OL3217564A",
+      "type": "author",
+      "name": "Jozsef Attila Tudomanyegyetem",
+      "top_work": "Tarsadalomtudomanyok",
+      "work_count": 1,
+      "_version_": 1735692054822912004
+    },
+    {
+      "key": "OL9451243A",
+      "type": "author",
+      "name": "József Attila Balázsi",
+      "top_work": "Lexicon of Common Figurative Units",
+      "work_count": 1,
+      "top_subjects": [
+        "Europe, languages"
+      ],
+      "_version_": 1735716091051638788
+    },
+    {
+      "key": "OL11712250A",
+      "type": "author",
+      "name": "József Attila Balázsi",
+      "birth_date": "1954",
+      "work_count": 0,
+      "_version_": 1752318784870285313
+    },
+    {
+      "key": "OL11508817A",
+      "type": "author",
+      "name": "Jozsef, Attila; Batki, John",
+      "work_count": 0,
+      "_version_": 1751633450449764353
+    },
+    {
+      "key": "OL987893A",
+      "type": "author",
+      "name": "József Attila Tudományegyetem. Központi Könyvtár.",
+      "top_work": "Gyarapodási jegyzék",
+      "work_count": 3,
+      "top_subjects": [
+        "József Attila Tudományegyetem",
+        "Catalogs",
+        "József Attila Tudományegyetem. Központi Könyvtár",
+        "Hungary",
+        "Dissertations",
+        "Bibliography of bibliographies",
+        "Bibliography",
+        "Academic libraries",
+        "Academic Dissertations"
+      ],
+      "_version_": 1735717937726095367
+    },
+    {
+      "key": "OL6770486A",
+      "type": "author",
+      "name": "József Attila Kör Tanulmányi Napok",
+      "top_work": "Az olvasó lázadása?: kritika, vita, internet",
+      "work_count": 2,
+      "top_subjects": [
+        "Congresses",
+        "Philosophy",
+        "Literature and the Internet",
+        "Literature",
+        "Hungarian literature",
+        "History and criticism",
+        "Criticism",
+        "21st century"
+      ],
+      "_version_": 1735706093617676294
+    },
+    {
+      "key": "OL4970674A",
+      "type": "author",
+      "name": "József Attila Kör Tanulmányi Napok",
+      "top_work": "Művészet és hatalom",
+      "work_count": 1,
+      "top_subjects": [
+        "Literature and state",
+        "Hungary",
+        "History",
+        "Cultural policy",
+        "Congresses",
+        "Communism and culture",
+        "20th century"
+      ],
+      "_version_": 1735698726646710272
+    },
+    {
+      "key": "OL1790044A",
+      "type": "author",
+      "name": "Colloquium on Universal Algebra József Attila University 1975.",
+      "top_work": "Contributions to universal algebra",
+      "work_count": 1,
+      "top_subjects": [
+        "Universal Algebra",
+        "Congresses"
+      ],
+      "_version_": 1735687032931352588
+    },
+    {
+      "key": "OL12015670A",
+      "type": "author",
+      "name": "Attila József",
+      "birth_date": "1905",
+      "death_date": "1937",
+      "top_work": "József Attila összes versei",
+      "work_count": 1,
+      "_version_": 1753674468487593987
+    }
+  ]
+}
