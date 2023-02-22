@@ -5,9 +5,7 @@ import {IBook} from "../model/IBook";
 export class BookApi {
     public static async searchAndPrintAuthorsBook(author: string) {
         try {
-            const response = await fetch(`http://openlibrary.org/search/authors.json?q=${author}`);
-            const res = await response.text();
-            const authors: IAuthor[] = this.mapResponseToAuthorType(res);
+            const authors = await this.fetchAuthorData(author);
             this.printAllBookTitles(authors);
         } catch (err) {
             console.error("Fail", err);
@@ -15,16 +13,31 @@ export class BookApi {
 
     }
 
-    private static printAllBookTitles(docs: IAuthor[]) {
-        docs.forEach((value: IAuthor) => {
-            console.log(`****************************************`);
-            console.log(`Author name: ${value.name}`);
-            console.log(`Books count: ${value.bookCount}`);
-            console.log(`Books titles: `)
-            value.books.forEach(book =>{
-                console.log(`    - ${book.title} (${book.key})`);
+    public static async fetchAuthorData(author: string) {
+        try {
+            const response = await fetch(`http://openlibrary.org/search/authors.json?q=${author}`);
+            const res = await response.text();
+            return this.mapResponseToAuthorType(res);
+        } catch (err) {
+            console.error("Failed to map response!");
+            console.error("Error Message: ", err);
+        }
+    }
+
+    private static printAllBookTitles(docs: IAuthor[] | undefined) {
+        if(docs && docs.length >0) {
+            docs.forEach((value: IAuthor) => {
+                console.log(`****************************************`);
+                console.log(`Author name: ${value.name}`);
+                console.log(`Books count: ${value.bookCount}`);
+                console.log(`Books titles: `)
+                value.books.forEach(book => {
+                    console.log(`    - ${book.title} (${book.key})`);
+                })
             })
-        })
+        } else {
+            console.log("We could not find any author");
+        }
     }
 
     private static mapResponseToAuthorType(response: string) {
